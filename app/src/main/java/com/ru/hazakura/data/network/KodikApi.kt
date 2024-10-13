@@ -23,7 +23,7 @@ interface KodikApi {
     @FormUrlEncoded
     @POST("search")
     suspend fun getSearch(
-        @Field("token") token: String = "447d179e875efe44217f20d1ee2146be",
+        @Field("token") token: String = "447d179546456ff17f20d1ee2146be",
         @Field("title") title: String) : Response<SearchResponceDto>
 
 
